@@ -1,0 +1,9 @@
+[project]
+name = "google-search-api"
+version = "0.1.0"
+description = "Search Google via SearchAPI.io and export results to CSV"
+requires-python = ">=3.9"
+dependencies = [
+    "requests",
+    "python-dotenv",
+]
